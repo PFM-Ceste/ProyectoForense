@@ -1,0 +1,147 @@
+{
+    "tables": {
+        "table": {
+            "columns": {
+                "attack_cat": {
+                    "sdtype": "categorical"
+                },
+                "label": {
+                    "sdtype": "categorical"
+                },
+                "proto": {
+                    "sdtype": "categorical"
+                },
+                "state": {
+                    "pii": true,
+                    "sdtype": "administrative_unit"
+                },
+                "dur": {
+                    "sdtype": "numerical"
+                },
+                "sbytes": {
+                    "sdtype": "numerical"
+                },
+                "dbytes": {
+                    "sdtype": "numerical"
+                },
+                "sttl": {
+                    "sdtype": "numerical"
+                },
+                "dttl": {
+                    "sdtype": "categorical"
+                },
+                "sloss": {
+                    "sdtype": "numerical"
+                },
+                "dloss": {
+                    "sdtype": "numerical"
+                },
+                "service": {
+                    "sdtype": "categorical"
+                },
+                "sload": {
+                    "sdtype": "numerical"
+                },
+                "dload": {
+                    "sdtype": "numerical"
+                },
+                "spkts": {
+                    "sdtype": "numerical"
+                },
+                "dpkts": {
+                    "sdtype": "numerical"
+                },
+                "swin": {
+                    "sdtype": "categorical"
+                },
+                "dwin": {
+                    "sdtype": "categorical"
+                },
+                "stcpb": {
+                    "sdtype": "numerical"
+                },
+                "dtcpb": {
+                    "sdtype": "numerical"
+                },
+                "smeansz": {
+                    "sdtype": "numerical"
+                },
+                "dmeansz": {
+                    "sdtype": "numerical"
+                },
+                "trans_depth": {
+                    "sdtype": "numerical"
+                },
+                "res_bdy_len": {
+                    "sdtype": "numerical"
+                },
+                "sjit": {
+                    "sdtype": "numerical"
+                },
+                "djit": {
+                    "sdtype": "numerical"
+                },
+                "stime": {
+                    "sdtype": "numerical"
+                },
+                "ltime": {
+                    "sdtype": "numerical"
+                },
+                "sintpkt": {
+                    "sdtype": "numerical"
+                },
+                "dintpkt": {
+                    "sdtype": "numerical"
+                },
+                "tcprtt": {
+                    "sdtype": "numerical"
+                },
+                "synack": {
+                    "sdtype": "numerical"
+                },
+                "ackdat": {
+                    "sdtype": "numerical"
+                },
+                "is_sm_ips_ports": {
+                    "sdtype": "categorical"
+                },
+                "ct_state_ttl": {
+                    "pii": true,
+                    "sdtype": "administrative_unit"
+                },
+                "ct_flw_http_mthd": {
+                    "sdtype": "numerical"
+                },
+                "is_ftp_login": {
+                    "sdtype": "categorical"
+                },
+                "ct_ftp_cmd": {
+                    "sdtype": "categorical"
+                },
+                "ct_srv_src": {
+                    "sdtype": "numerical"
+                },
+                "ct_srv_dst": {
+                    "sdtype": "numerical"
+                },
+                "ct_dst_ltm": {
+                    "sdtype": "numerical"
+                },
+                "ct_src__ltm": {
+                    "sdtype": "numerical"
+                },
+                "ct_src_dport_ltm": {
+                    "sdtype": "numerical"
+                },
+                "ct_dst_sport_ltm": {
+                    "sdtype": "numerical"
+                },
+                "ct_dst_src_ltm": {
+                    "sdtype": "numerical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

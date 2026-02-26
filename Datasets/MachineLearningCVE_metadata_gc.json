@@ -1,0 +1,250 @@
+{
+    "tables": {
+        "table": {
+            "columns": {
+                "attack_cat": {
+                    "sdtype": "categorical"
+                },
+                "label": {
+                    "sdtype": "categorical"
+                },
+                "destination_port": {
+                    "sdtype": "numerical"
+                },
+                "flow_duration": {
+                    "sdtype": "numerical"
+                },
+                "total_fwd_packets": {
+                    "sdtype": "numerical"
+                },
+                "total_backward_packets": {
+                    "sdtype": "numerical"
+                },
+                "total_length_of_fwd_packets": {
+                    "sdtype": "numerical"
+                },
+                "total_length_of_bwd_packets": {
+                    "sdtype": "numerical"
+                },
+                "fwd_packet_length_max": {
+                    "sdtype": "numerical"
+                },
+                "fwd_packet_length_min": {
+                    "sdtype": "numerical"
+                },
+                "fwd_packet_length_mean": {
+                    "sdtype": "numerical"
+                },
+                "fwd_packet_length_std": {
+                    "sdtype": "numerical"
+                },
+                "bwd_packet_length_max": {
+                    "sdtype": "numerical"
+                },
+                "bwd_packet_length_min": {
+                    "sdtype": "numerical"
+                },
+                "bwd_packet_length_mean": {
+                    "sdtype": "numerical"
+                },
+                "bwd_packet_length_std": {
+                    "sdtype": "numerical"
+                },
+                "flow_bytes_s": {
+                    "sdtype": "numerical"
+                },
+                "flow_packets_s": {
+                    "sdtype": "numerical"
+                },
+                "flow_iat_mean": {
+                    "sdtype": "numerical"
+                },
+                "flow_iat_std": {
+                    "sdtype": "numerical"
+                },
+                "flow_iat_max": {
+                    "sdtype": "numerical"
+                },
+                "flow_iat_min": {
+                    "sdtype": "numerical"
+                },
+                "fwd_iat_total": {
+                    "sdtype": "numerical"
+                },
+                "fwd_iat_mean": {
+                    "sdtype": "numerical"
+                },
+                "fwd_iat_std": {
+                    "sdtype": "numerical"
+                },
+                "fwd_iat_max": {
+                    "sdtype": "numerical"
+                },
+                "fwd_iat_min": {
+                    "sdtype": "numerical"
+                },
+                "bwd_iat_total": {
+                    "sdtype": "numerical"
+                },
+                "bwd_iat_mean": {
+                    "sdtype": "numerical"
+                },
+                "bwd_iat_std": {
+                    "sdtype": "numerical"
+                },
+                "bwd_iat_max": {
+                    "sdtype": "numerical"
+                },
+                "bwd_iat_min": {
+                    "sdtype": "numerical"
+                },
+                "fwd_psh_flags": {
+                    "sdtype": "categorical"
+                },
+                "bwd_psh_flags": {
+                    "sdtype": "categorical"
+                },
+                "fwd_urg_flags": {
+                    "sdtype": "categorical"
+                },
+                "bwd_urg_flags": {
+                    "sdtype": "categorical"
+                },
+                "fwd_header_length": {
+                    "sdtype": "numerical"
+                },
+                "bwd_header_length": {
+                    "sdtype": "numerical"
+                },
+                "fwd_packets_s": {
+                    "sdtype": "numerical"
+                },
+                "bwd_packets_s": {
+                    "sdtype": "numerical"
+                },
+                "min_packet_length": {
+                    "sdtype": "numerical"
+                },
+                "max_packet_length": {
+                    "sdtype": "numerical"
+                },
+                "packet_length_mean": {
+                    "sdtype": "numerical"
+                },
+                "packet_length_std": {
+                    "sdtype": "numerical"
+                },
+                "packet_length_variance": {
+                    "sdtype": "numerical"
+                },
+                "fin_flag_count": {
+                    "sdtype": "categorical"
+                },
+                "syn_flag_count": {
+                    "sdtype": "categorical"
+                },
+                "rst_flag_count": {
+                    "sdtype": "categorical"
+                },
+                "psh_flag_count": {
+                    "sdtype": "categorical"
+                },
+                "ack_flag_count": {
+                    "sdtype": "categorical"
+                },
+                "urg_flag_count": {
+                    "sdtype": "categorical"
+                },
+                "cwe_flag_count": {
+                    "sdtype": "categorical"
+                },
+                "ece_flag_count": {
+                    "sdtype": "categorical"
+                },
+                "down_up_ratio": {
+                    "sdtype": "categorical"
+                },
+                "average_packet_size": {
+                    "sdtype": "numerical"
+                },
+                "avg_fwd_segment_size": {
+                    "sdtype": "numerical"
+                },
+                "avg_bwd_segment_size": {
+                    "sdtype": "numerical"
+                },
+                "fwd_header_length.1": {
+                    "sdtype": "numerical"
+                },
+                "fwd_avg_bytes_bulk": {
+                    "sdtype": "categorical"
+                },
+                "fwd_avg_packets_bulk": {
+                    "sdtype": "categorical"
+                },
+                "fwd_avg_bulk_rate": {
+                    "sdtype": "categorical"
+                },
+                "bwd_avg_bytes_bulk": {
+                    "sdtype": "categorical"
+                },
+                "bwd_avg_packets_bulk": {
+                    "sdtype": "categorical"
+                },
+                "bwd_avg_bulk_rate": {
+                    "sdtype": "categorical"
+                },
+                "subflow_fwd_packets": {
+                    "sdtype": "numerical"
+                },
+                "subflow_fwd_bytes": {
+                    "sdtype": "numerical"
+                },
+                "subflow_bwd_packets": {
+                    "sdtype": "numerical"
+                },
+                "subflow_bwd_bytes": {
+                    "sdtype": "numerical"
+                },
+                "init_win_bytes_forward": {
+                    "sdtype": "numerical"
+                },
+                "init_win_bytes_backward": {
+                    "sdtype": "numerical"
+                },
+                "act_data_pkt_fwd": {
+                    "sdtype": "numerical"
+                },
+                "min_seg_size_forward": {
+                    "sdtype": "categorical"
+                },
+                "active_mean": {
+                    "sdtype": "numerical"
+                },
+                "active_std": {
+                    "sdtype": "numerical"
+                },
+                "active_max": {
+                    "sdtype": "numerical"
+                },
+                "active_min": {
+                    "sdtype": "numerical"
+                },
+                "idle_mean": {
+                    "sdtype": "numerical"
+                },
+                "idle_std": {
+                    "sdtype": "numerical"
+                },
+                "idle_max": {
+                    "sdtype": "numerical"
+                },
+                "idle_min": {
+                    "sdtype": "numerical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

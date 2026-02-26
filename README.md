@@ -8,8 +8,6 @@ Generación de datos sintéticos y entrenamiento aplicando Inteligencia Artifici
 
 Este repositorio contiene la implementación desarrollada en el Proyecto Fin de Máster (PFM) cuyo objetivo es diseñar y validar un sistema de detección de intrusiones que cumpla requisitos técnicos y forenses.
 
-Los datasets utilizados son públicos o derivados sintéticos generados con fines de investigación.
-
 El sistema integra:
 
 * Generación de datos sintéticos
@@ -36,6 +34,13 @@ ProyectoForense/
 ```
 
 > La estructura puede evolucionar ligeramente durante el desarrollo.
+
+---
+
+## Sobre los datasets
+
+Los datasets utilizados en este proyecto son públicos o derivados sintéticos generados con fines de investigación.  
+La generación sintética se emplea para preservar la privacidad y facilitar la reproducibilidad experimental.
 
 ---
 
